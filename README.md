@@ -3,8 +3,8 @@
   <img src="banner.png" alt="3D Tic-Tac-Toe (4×4×4)" width="960">
 <p align="center">
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/License-MIT-gold?style=for-the-badge"></a>
-  <img alt="Language" src="https://img.shields.io/badge/Language-C%2B%2B17-00599C?logo=c%2B%2B&logoColor=white&style=for-the-badge">
-  <img alt="Engine" src="https://img.shields.io/badge/IDE-Visual%20Studio%202022-5C2D91?logo=visualstudio&logoColor=white&style=for-the-badge">
+  <img alt="Language" src="https://img.shields.io/badge/Language-C%23-239120?logo=csharp&logoColor=white&style=for-the-badge">
+  <img alt="Engine" src="https://img.shields.io/badge/Engine-Unity-5C2D91?logo=visualstudio&logoColor=white&style=for-the-badge">
   <img alt="Game" src="https://img.shields.io/badge/Game-Tic--Tac--Toe-FF5E5B?style=for-the-badge">
   <img alt="AI" src="https://img.shields.io/badge/AI-ChatGPT%204-00A67E?logo=openai&logoColor=white&style=for-the-badge">
 </p>
@@ -61,25 +61,25 @@ A execução utilizou **ChatGPT (GPT‑4)** como agente colaborador de programa�
 - **Plataformas:** Windows / Mac / Linux
 
 ---
+## Lista de Funcionalidades
 
-## ⚙️ Como Rodar
-
-### 1) Clonar
-```bash
-git clone https://github.com/ValencoSilva/tictactoe-3d-gpt4.git
-cd tictactoe-3d-gpt4
-```
-
-### 2) Abrir no Unity
-- Abra o **Unity Hub** e selecione a pasta do projeto
-- Versão recomendada: **2021 LTS** (ou a sua versão alvo)
-
-### 3) Build & Run
-- `File > Build Settings` → selecione a plataforma → `Build` / `Build and Run`
-
-> **Executável para usuários (profissional):** publique o build **em uma Release do GitHub**, não commit no main. Veja [GUIA DE RELEASE](RELEASE_GUIDE.md).
+| **Nome**                          | **Descrição** |
+|----------------------------------|---------------|
+| Gameplay “Tic-Tac-Toe”           | Jogo da velha clássico em grade 3×3, com vitória por três em linha (horizontal, vertical ou diagonal) e detecção de empate. |
+| Modos de Jogo                    | **1 Jogador (vs CPU)** e **2 Jogadores (local)**, alternância automática de turnos (X/O). |
+| IA do Oponente                   | CPU com estratégia **ótima (Minimax)** ou **heurística** em níveis **Fácil / Médio / Difícil** (configurável). |
+| Detecção de Vitória/Empate       | Checagem instantânea a cada jogada; **realce** da sequência vencedora quando houver vitória. |
+| Controles e Acessibilidade       | Mouse e teclado (setas/Enter/Esc); foco visível; impede jogada em célula ocupada. |
+| Reinício Rápido                  | Botão **Reiniciar** para começar uma nova partida mantendo (ou não) o placar, conforme ajuste. |
+| Placar de Partidas               | Contador de vitórias de X, vitórias de O e empates; exibição no HUD. |
+| Persistência (Opcional)          | **Salva** e **carrega** o placar em arquivo local (ex.: JSON) entre sessões. |
+| Timer por Turno (Opcional)       | Tempo limite configurável; ao estourar, a vez passa para o outro jogador. |
+| Feedbacks de UI                  | Sons/efeitos visuais ao jogar, vencer ou empatar (ativar/desativar nas opções). |
+| Temas Visuais                    | Tema **claro/escuro** e/ou paletas customizáveis (alto contraste). |
+| Logs/Debug (Opcional)            | Console/log simples para depurar IA e estados de jogo durante o desenvolvimento. |
 
 ---
+
 
 ## 🎮 Controles
 | Ação                     | Tecla(s)                   |
@@ -129,20 +129,7 @@ cd tictactoe-3d-gpt4
 
 ---
 
-## 🗂️ Estrutura do Repo
-```text
-.
-├─ Assets/                 # projeto Unity
-├─ ProjectSettings/
-├─ Packages/
-├─ docs/
-│  └─ media/               # imagens, thumbnails, gifs, vídeos curtos
-├─ README.md
-├─ LICENSE
-├─ .gitignore
-├─ RELEASE_GUIDE.md        # guia para publicar releases com executável
-└─ CHANGELOG.md
-```
+
 
 ---
 
