@@ -1,7 +1,15 @@
 <!-- Title banner opcional -->
 <p align="center">
-  <img src="docs/media/banner.png" alt="3D Tic-Tac-Toe (4×4×4)" width="960">
+  <img src="banner.png" alt="3D Tic-Tac-Toe (4×4×4)" width="960">
+<p align="center">
+  <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/License-MIT-gold?style=for-the-badge"></a>
+  <img alt="Language" src="https://img.shields.io/badge/Language-C%2B%2B17-00599C?logo=c%2B%2B&logoColor=white&style=for-the-badge">
+  <img alt="Engine" src="https://img.shields.io/badge/IDE-Visual%20Studio%202022-5C2D91?logo=visualstudio&logoColor=white&style=for-the-badge">
+  <img alt="Game" src="https://img.shields.io/badge/Game-Tic--Tac--Toe-FF5E5B?style=for-the-badge">
+  <img alt="AI" src="https://img.shields.io/badge/AI-ChatGPT%204-00A67E?logo=openai&logoColor=white&style=for-the-badge">
 </p>
+
+
 
 <h1 align="center">3D Tic-Tac-Toe (4×4×4) — Jogo Educacional com IA Generativa</h1>
 
