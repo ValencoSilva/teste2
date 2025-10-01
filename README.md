@@ -54,7 +54,7 @@ A execução utilizou **ChatGPT (GPT‑4)** como agente colaborador de programa�
 ---
 
 ## 🧱 Stack Técnica
-- **Engine:** Unity (2021 LTS ou superior — ajuste conforme seu projeto)
+- **Engine:** Unity (2021.3.45f1)
 - **Linguagem:** C#
 - **IA generativa:** ChatGPT (GPT‑4)
 - **Controle de versão:** Git/GitHub
